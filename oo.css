@@ -1,0 +1,86 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee {
+    width:100%;
+    background-color: rgb(222, 184, 135);
+    border: 2px solid black;
+  max-width:555px;
+
+
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.coffee h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Impact, serif;
+    margin:auto;
+}
+
+.coffee p{
+    font-style: italic;
+    text-align:center;
+   
+}
+.seperation{
+    background-color:#a52a2a;
+    border-color:#a52a2a;
+    height:1px;
+    border-width:1px;
+    overflow:hidden;
+    display:block;
+    width:400px; 
+ 
+}
+.section1 h2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Impact, serif;
+    
+}
+.section1 img{
+margin-left:auto;
+margin-right:auto;
+margin-top:-15px;
+display: block;
+}
+
+
+.yoman .flavour{
+    text-align:left;
+    width:50%;
+}
+.yoman .price{
+    text-align:right;
+    width:50%;
+}
+.yoman{
+    display:flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.section2 img{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-15px;
+    display: block;
+    }
+    footer{
+        text-align:center;
+padding:19px 19px 19px 19px;
+margin:auto;
+    }
